@@ -1,5 +1,7 @@
 replaceText(document.body)
 
+// function alert covid
+
 function replaceText(element) {
   if (element.hasChildNodes()) {
     element.childNodes.forEach(replaceText)
